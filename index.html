@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>introduksjonsoppgave</title>
+    <style>
+        body{
+            background-color: plum;
+            margin-left: 30px;
+        }
+        .box {
+            width: 300px;
+            border: 1px solid black;
+            margin: 10px;
+            text-align: center;
+            font-size: x-large;
+        }
+        .aqua{
+            background-color: aqua;
+        }
+
+        .green{
+            background-color: green;
+        }
+      </style>
+</head>
+
+      <body>
+        <h1>trykk på boksene for å endre farge!</h1>
+        
+        <div class="aqua box" onclick="changeColor(this)">Om meg!
+    
+        <ul>
+            <li>Jonas Niemi</li>
+            <li>26 år</li>
+            <li>Bor i Nome Kommune</li>
+        </ul>
+    </div>
+    <div class="green box" onclick="changeColor(this)">Hobbier
+        <ul>
+            <li>Gaming</li>
+            <li>Lesing</li>
+            <li>Ha for mye informasjon om veldig spesifikke fiksjonelle karakterer</li>
+        </ul>
+    </div>
+    <div class="card"></div>
+    <div>
+    <img src="img\memeforschool.jpg">
+</div>
+</body>
+<script>
+    function changeColor(element){
+        element.style.backgroundColor = "Purple"
+        
+
+    }
+    
+</script>
+</html>
